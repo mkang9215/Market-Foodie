@@ -1,0 +1,171 @@
+@font-face {
+  font-family: Lobster;
+  src: url('fonts/Lobster-Regular.ttf');
+}
+@font-face {
+  font-family: Slabo;
+  src: url('fonts/Slabo27px-Regular.ttf');
+}
+@font-face {
+  font-family: Dancing;
+  src: url('fonts/DancingScript-VariableFont_wght.ttf');
+}
+
+body {
+  color: indigo;
+  font-family: Slabo, Roboto, sans-serif;
+  background-image: url('images/fruit.jpg');
+  background-size: cover;
+}
+
+header {
+  color: indigo;
+  font-family: Lobster;
+  font-size: 20px;
+}
+
+footer {
+  color: indigo;
+  text-align: center;
+  font-family: Lobster;
+  font-size: 20px;
+}
+
+.container {
+  padding-bottom: 20px;
+}
+
+.nav-sm {
+  color: white;
+  text-align: center;
+  font-family: Dancing;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: RebeccaPurple;
+  margin: 1px;
+  padding: 5px;
+  cursor: pointer;
+}
+.nav-sm:hover {
+  background-color: indigo;
+}
+
+i {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+label {
+  color: indigo;
+  font-family: Dancing;
+  font-size: 24px;
+}
+
+a {
+  color: indigo !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: MediumVioletRed !important;
+}
+
+#welcome img {
+  margin: auto;
+  background-color: #e8cfd8aa;
+  width: 100em;
+  border: 1px solid purple;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+figure img {
+  background-color: #e8cfd8aa;
+  max-height: 350px;
+  border: 1px solid purple;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 40px;
+  cursor: pointer;
+}
+figure figcaption {
+  color: indigo;
+  width: 200px;
+  background-color: #d8bfd8aa;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+}
+figure {
+  float: left;
+}
+
+#backToMenu {
+  visibility: hidden;
+}
+#backToMenu button {
+  font-family: Dancing;
+  font-size: 20px;
+  width: 200px;
+  background-color: RebeccaPurple;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin: auto;
+}
+#backToMenu button:hover {
+  background-color: indigo;
+}
+
+#email {
+  color: indigo;
+  padding-left: 7px;
+  border-radius: 10px;
+  border: 1px solid purple;
+}
+#email:focus {
+  border: 3px solid purple;
+}
+#email::placeholder {
+  color: thistle;
+}
+
+#emailButton {
+  font-family: Lobster;
+  font-size: 20px;
+  width: 160px;
+  background-color: RebeccaPurple;
+  color: white;
+  border-radius: 10px;
+  padding: 3px;
+  margin-top: 5px;
+}
+#emailButton:hover {
+  background-color: indigo;
+}
+
+#popupImage {
+  max-height: 600px;
+  cursor: pointer;
+}
+#popupWindow {
+  position: fixed;
+  top: 100px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: lavenderblush;
+  display: none;
+  z-index: 1000;
+}
+#popupbg {
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+#order-number {
+  display: none;
+}

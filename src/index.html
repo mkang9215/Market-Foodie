@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>WEB222 Store</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="row justify-content-around align-items-start mt-3">
+        <h1 class="col-4"><a href="index.html">Market Foodie</a></h1>
+        <h3 class="col-4"><a href="contact.html">Contact Us</a></h3>
+      </header>
+      <div class="row nav mt-3">
+        <div class="col-sm nav-sm" id="all"><i class="material-icons">menu</i>All</div>
+        <div class="col-sm nav-sm" id="breakfast">
+          <i class="material-icons">local_cafe</i>Breakfast
+        </div>
+        <div class="col-sm nav-sm" id="lunch"><i class="material-icons">fastfood</i>Lunch</div>
+        <div class="col-sm nav-sm" id="dessert"><i class="material-icons">cake</i>Dessert</div>
+      </div>
+      <main class="row align-items-center">
+        <div id="backToMenu">
+          <button onclick="figuresToDiv('all');">Back to All Categories</button>
+        </div>
+        <div id="welcome">
+          <img src="images/welcome.jpg" class="img-fluid" alt="welcome" />
+        </div>
+        <div id="imageGrid"></div>
+        <div id="popupbg"></div>
+        <div id="popupWindow">
+          <img src="images/welcome.jpg" id="popupImage" alt="loading" />
+        </div>
+      </main>
+      <footer class="row align-items-end mt-5">
+        <h2 class="col-sm">Market Foodie</h2>
+        <div class="col-sm">
+          <a href="https://www.facebook.com/FoodieMarketPlace/">
+            <i class="material-icons" id="facebook">facebook</i>Market Foodie<br />Facebook
+          </a>
+        </div>
+        <form class="col-sm" action="https://formspree.io/f/xoqpngbz" method="post">
+          <input
+            class="form-control"
+            name="Email"
+            id="email"
+            autocomplete="email"
+            type="email"
+            placeholder="Email Address"
+            required
+          />
+          <button type="submit" id="emailButton">Subscribe</button>
+        </form>
+      </footer>
+      <script src="items.js"></script>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
