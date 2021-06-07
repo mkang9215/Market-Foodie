@@ -1,7 +1,8 @@
-# WEB222 Assignment 5  
+# WEB222 Assignment  
 
-## https://clever-haibt-3eac2a.netlify.app/
-
+### https://clever-haibt-3eac2a.netlify.app/  
+  
+  
 ## Instructions
 
 You are asked to create an imaginary online store. Your site will focus on the
