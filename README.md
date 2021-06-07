@@ -1,4 +1,6 @@
-# WEB222 Assignment  
+# Market Foodie  
+
+## WEB222 Assignment  
 
 ### https://clever-haibt-3eac2a.netlify.app/  
   
