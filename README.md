@@ -5,4 +5,6 @@
 ### https://clever-haibt-3eac2a.netlify.app/  
 
 using JavaScript, HTML, CSS, Bootstrap  
-categorize by JSON file  
+* click the image to make it bigger
+* categorize by JSON file  
+* email subscription
